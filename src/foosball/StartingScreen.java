@@ -16,6 +16,7 @@ public class StartingScreen extends JFrame {
 	private ImageIcon footballField;
 	private StartingOptions options;
 	private JPanel panelMain;
+	private BouncingBall ball;
 	private JLayeredPane lPane = new JLayeredPane();
 	public int screenWidth = 1085;
 	public int screenHeight = 730;
@@ -29,10 +30,12 @@ public class StartingScreen extends JFrame {
 		setBounds(0, 0, 1080, 1080);
 		
 		footballField = new ImageIcon("foosball.png");
+		BouncingBall ball = new BouncingBall(); //bouncing ball called
 		label = new JLabel(footballField);
 		panelMain = new JPanel();
         panelMain.setBackground(Color.BLACK);
         panelMain.add(label);
+        panelMain.add(ball);
         panelMain.setBounds(0, 0, screenWidth, screenHeight);
         panelMain.setOpaque(true);
   
