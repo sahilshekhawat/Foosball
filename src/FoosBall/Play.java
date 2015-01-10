@@ -1,6 +1,6 @@
 package FoosBall;
 
-import FoosBall.Field.Field;
+import FoosBall.GUI.Field.Field;
 
 import javax.swing.JFrame;
 

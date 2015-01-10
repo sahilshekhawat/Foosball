@@ -1,4 +1,4 @@
-package FoosBall.Menus;
+package FoosBall.GUI.Menus;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;

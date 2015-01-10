@@ -1,7 +1,7 @@
-package FoosBall.Field;
+package FoosBall.GUI.Field;
 
-import FoosBall.Ball.BouncingBall;
-import FoosBall.Menus.MainMenu;
+import FoosBall.GUI.Ball.BouncingBall;
+import FoosBall.GUI.Menus.MainMenu;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
